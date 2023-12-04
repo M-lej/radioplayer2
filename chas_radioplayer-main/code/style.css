@@ -1,0 +1,36 @@
+#channels {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  row-gap: 15px;
+  margin: 10px;
+  width: 100%;
+}
+
+.image-container {
+  width: 60%;
+  height: 300px;
+}
+
+img {
+  height: 300px;
+}
+
+.text-container {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap-reverse;
+  text-size-adjust: 20;
+  float: left;
+  top: -280px;
+  left: 50px;
+}
+
+AUDIO {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: -200px;
+  left: 140px;
+}
